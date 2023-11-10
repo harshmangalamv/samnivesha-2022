@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.ln{
+    /* background-color: blanchedalmond; */
+    width:100%;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #070707;
+}
+.ln h1{
+    font-size:55px;
+    font-weight: bold;
+    font-family: cursive;
+    letter-spacing: 2px;
+    color:white;
+}
+.on{
+    width:100%;
+    height:450px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#070707;
+    /* background-color: blueviolet; */
+    
+}
+.on-1{
+    width:30%;
+    height:350px;
+    margin-right:60px;
+    /* background-color:black; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwveroX5l9r3jVzGfJtAAUQaEX7VGf7kQOQA&usqp=CAU");
+    background-size: cover;
+    background-position:center;
+
+}
+.on-1-1 h2{
+    color:white;
+    font-size:30px;
+    margin-top:280px;
+    margin-left:30px;
+    letter-spacing:2px;
+    
+    border-bottom: 2px dotted white;
+    
+}
+.on-2{
+    width:30%;
+    height:350px;
+    margin-right:60px;
+    /* background-color: black; */
+    background-image: url("https://image.freepik.com/free-photo/observation-urban-building-business-steel_1127-2397.jpg");
+    background-size: cover;
+    background-position:center;
+    
+  
+}
+.on-3{
+    width:30%;
+    height:350px;
+    margin-right:60px;
+    /* background-color: black; */
+    background-image: url("https://images.adsttc.com/media/images/5da5/56f8/3312/fd3f/6a00/0052/newsletter/1-O_Mbuildings_PhotoByBruceDamonte.jpg?1571116781");
+    background-size: cover;
+    background-position:center;
+    
+  
+}
+.on-4{
+    width:30%;
+    height:350px;
+    margin-right:60px;
+    /* background-color: black; */
+    background-image: url("https://i.insider.com/5cbf3c8fb14bf426443fd865?width=700");
+    background-size: cover;
+    background-position:center;
+    
+  
+}
+@media only screen and (max-width:980px){
+    .on{
+        flex-wrap:wrap;
+        height:auto;
+    }
+    .on-1{
+        width:80%;
+        margin-top:20px;
+        margin-bottom:50px;
+        height:350px;
+    }
+    .on-2{
+        width:80%;
+        margin-bottom:50px;
+        height:350px;
+    }
+    .on-3{
+        width:80%;
+        margin-bottom: 50px;
+    }
+    .on-4{
+        width:80%;
+        margin-bottom:50px;
+    }
+    .on-1-1 h2{
+        font-size:23px;
+    }
+    .ln h1{
+        font-size:30px;
+    }
+
+}
+.lnr_2{
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.lnr_2 p{
+    font-size: 20px;
+    font-family: sans-serif;
+    color:red;
+}
+.lnr-3{
+    width:100%;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:50px;
+
+}
+    
+

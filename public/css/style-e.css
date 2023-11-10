@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+.event {
+    color: black;
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+    height: 50px;
+    /* margin-top: 10px; */
+    text-shadow: 3px 2px rgb(223, 92, 92);
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    background-color: #070707;
+
+}
+
+.event h1 {
+    font-size: 60px;
+    margin-top: 80px;
+    margin-left: 85px;
+    position: absolute;
+    z-index: 2;
+    color: rgb(223, 92, 92);
+    font-weight: bold;
+}
+
+.cl {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #070707;
+
+
+}
+
+.cl-1 {
+    width: 22%;
+    height: 270px;
+    /* background-color: white; */
+    margin: 20px;
+
+}
+
+.cl a {
+    text-decoration: none;
+}
+
+.cl-1:hover {
+    color: blue;
+    transform: translate3d(0, 10px, 0);
+}
+
+.db-1 {
+    width: 22%;
+    height: 270px;
+    background-image: url("https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.db-2 {
+    width: 22%;
+    height: 270px;
+    background-image: url("https://images.unsplash.com/photo-1503951458645-643d53bfd90f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGJ1aWxkaW5nc3xlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-size: cover;
+    background-position: center;
+}
+
+.db-3 {
+    width: 22%;
+    height: 270px;
+    background-image: url("https://images.unsplash.com/photo-1515462277126-2dd0c162007a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2slMjBidWlsZGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+}
+
+.db-4 {
+    width: 22%;
+    height: 280px;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/592/603/726/digital-digital-art-artwork-illustration-vector-hd-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.db-5 {
+    width: 22%;
+    height: 270px;
+    background-image: url("https://images.unsplash.com/photo-1516721306533-364eee523197?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFyayUyMGJ1aWxkaW5nfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.db-6 {
+    width: 22%;
+    height: 270px;
+    background-image: url("https://cdn.yourpng.com/uploads/preview/picsart-wings-photo-editing-background-hd-11615023205yucmvnlapi.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.db-7 {
+    width: 22%;
+    height: 270px;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/985/136/886/building-lights-illustration-romain-trystram-wallpaper-preview.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.text ul li {
+    list-style-type: none;
+    padding-top: 10px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: white;
+    border-bottom: 2px dotted rgb(17, 16, 16);
+
+}
+
+.text {
+    width: 270px;
+}
+
+.text ul {
+    padding-top: 200px;
+    padding-left: 30px;
+}
+
+@media only screen and (max-width:910px) {
+    .cl {
+        flex-wrap: wrap;
+        height: auto;
+
+    }
+
+    .cl-1 {
+        width: 66%;
+        height: 250px;
+    }
+
+    .event {
+        justify-content: center;
+        height: 90px;
+        font-size: 17px;
+
+    }
+
+    .event h1 {
+        margin-top: 30px;
+        margin-left: 0px;
+        color: rgb(223, 92, 92);
+        font-size: 34px;
+    }
+
+}
+.lnr{
+    width:100%;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lnr h1{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.lnr_1{
+    display:flex;
+    width:100%;
+    height:auto;
+    justify-content: center;
+    font-size:20px;
+    font-family:sans-serif;
+    color:red;
+
+}
