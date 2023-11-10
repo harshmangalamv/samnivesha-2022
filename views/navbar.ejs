@@ -1,0 +1,72 @@
+<!-- Top Navbar -->
+
+<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark" id="mainNavbar">
+    <div class="container-fluid">
+        <a class="navbar-brand ms-3" href="/home">Samnivesha</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link <%= page === 'home'? 'active' : '' %>" aria-current="page" href="/home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <%= page === 'event'? 'active' : '' %>" href="/event">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <%= page === 'workshops'? 'active' : '' %>" href="/workshops">Workshops</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <%= page === 'guests'? 'active' : '' %>" href="/guests">Guest</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <%= page === 'contact'? 'active' : '' %>" href="/contact">Team</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="/campus-ambassador">Be a CA</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link <%= page === 'register'? 'active' : '' %>" href="/register">Register</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Animated Hamburger icon -->
+
+<div class="navButton">
+    <div class="navLine"></div>
+    <div class="navLine"></div>
+    <div class="navLine"></div>
+</div>
+
+<!-- Sliding images -->
+
+<div>
+    <div class="slide-in from-left left3 left">
+        <img src="images/cme-major-mainpage.jpg" alt="" id="left-img-1" class="slide-in-content nav-slide">
+    </div>
+    <div class="slide-in from-bottom left1 show-in-tab left">
+        <img src="images/Golden-Gate-Bridge.jpg" alt="" id="left-img-2" class="slide-in-content nav-slide">
+    </div>
+    <div class="slide-in from-left left2 left">
+        <img src="images/stadium1.jpg" alt="" id="left-img-3" class="slide-in-content nav-slide">
+    </div>
+    <div class="slide-in from-bottom right1">
+        <img src="images/darkback.jpg" alt="" id="right-img-1" class="slide-in-content nav-slide">
+    </div>
+</div>
+
+<!-- Overscreen navbar -->
+
+<div class="navbar2">
+    <a href="/" class="nav-links nav-slide <%= page === 'home'? 'active' : '' %>">Home</a>
+    <a href="/event" class="nav-links nav-slide <%= page === 'event'? 'active' : '' %>">Events</a>
+    <a href="/workshops" class="nav-links nav-slide <%= page === 'workshops'? 'active' : '' %>">Workshops</a>
+    <a href="/guests" class="nav-links nav-slide <%= page === 'guests'? 'active' : '' %>">Guests</a>
+    <a href="/contact" class="nav-links nav-slide <%= page === 'contact'? 'active' : '' %>">Team</a>
+    <a href="/register" class="nav-links nav-slide <%= page === 'register'? 'active' : '' %>">Register</a>
+</div>
